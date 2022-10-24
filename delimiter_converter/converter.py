@@ -61,7 +61,7 @@ class Converter():
             print("Converting this table to JSON.")
             print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
             output_filename = str(input("Input a filename for the converted file : "))
-            if output_filename is "": output_filename = "default"
+            if output_filename == "": output_filename = "default"
             with open(f'{output_filename}.json', 'w') as f:
                 f.write(json.dumps(self.col_list))
 
@@ -69,9 +69,9 @@ class Converter():
             convert()
             column_create()
             print("Converting this table to YAML.")
-            #print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
+            print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
             output_filename = str(input("Input a filename for the converted file : "))
-            if output_filename is "": output_filename = "default"
+            if output_filename == "": output_filename = "default"
             with open(f'{output_filename}.yml', 'w') as f:
                 for x in self.col_list:
                     f.write(yaml.dump(self.col_list))
@@ -82,9 +82,9 @@ class Converter():
             print("Converting this table to SQL Schema.")
             print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
             table_name = str(input("Input Table Name : "))
-            if table_name is "": table_name = "default"
+            if table_name == "": table_name = "default"
             output_filename = str(input("Input a filename for the converted file : "))
-            if output_filename is "": output_filename = "default"
+            if output_filename == "": output_filename = "default"
 
             sql_wizard()
 
