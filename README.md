@@ -31,27 +31,27 @@ Type `python main.py --help` to see some useful information.
 2. Make sure that your data is correctly assembled in CSV, the program has some wiggle room however clean data works best.
 
 
-|  ![img_1.png](img_1.png)   |
+|  ![img_1.png](misc/img_1.png)   |
 |-----|
 
 * (Our Example Data)
 3. Run the program, since we already have the column names defined, add `-p` to our CLI Command, Otherwise the program will ask for column names to be inputted.
 4. Input the table name and filename you want (this will be `filename.sql`)
 
-|  ![img_6.png](img_6.png)   |
+|  ![img_6.png](misc/img_6.png)   |
 |-----|
 
 
 5. Specify the data types for each column, if you're unsure, consult [this link][1].
 
-|  ![img_7.png](img_7.png)   |
+|  ![img_7.png](misc/img_7.png)   |
 |-----|
 
 
 6. Follow through the SQL Wizard and enjoy your generated schema!
 
-|   ![img_3.png](img_3.png)  |
+|   ![img_3.png](misc/img_3.png)  |
 |-----|
-|   ![img_4.png](img_4.png)  |
+|   ![img_4.png](misc/img_4.png)  |
 
 #### Results!!!!
