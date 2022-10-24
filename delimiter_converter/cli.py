@@ -15,6 +15,8 @@ def cli():
     parser.add_argument("--yml", action="store_true", default=False, help="Converts the list to YAML.")
     parser.add_argument("--sql", action="store_true", default=False, help="Converts the list to SQL Schema.")
     parser.add_argument("--enum", action="store_true", default=False, help="Converts the list to a Java ENUM.")
+    parser.add_argument("--csv", action="store_true", default=False, help="Converts the list to a CSV File.")
+    parser.add_argument("-p", action="store_true", default=False, help="Accepts the first line of the file as column names.")
     parser.add_argument("-f", required=True, default=False, help="File input.", type=lambda x: is_valid_file(parser, x))
 
     args = parser.parse_args()
