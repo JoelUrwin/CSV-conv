@@ -16,7 +16,7 @@ Type `python main.py --help` to see some useful information.
 * ``--yml`` Converts the inputted CSV to YAML.
 * ``--enum`` Converts the inputted CSV to a Java ENUM.
 * ``--sql`` Converts the inputted CSV to SQL Schema (`CREATE TABLE and INSERT INTO`)
-* ``--p`` Automatically input Column Titles (*Ensure they are at Line 1 of the CSV*)
+* ``-p`` Automatically input Column Titles (*Ensure they are at Line 1 of the CSV*)
 * ``-f (filename/path)`` File input (**Required**)
 
 ## Installation
