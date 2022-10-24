@@ -101,12 +101,6 @@ class Converter():
                 for x in self.list:
                     f.write(f"INSERT INTO {table_name}\nVALUES ({str(x).strip('[]')});\n")
 
-        if args['csv'] is True:
-            convert()
-            column_create()
-            print("Converting this table to CSV.")
-            print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
-
         if args['enum'] is True:
             convert()
             column_create()
