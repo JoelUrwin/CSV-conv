@@ -7,6 +7,10 @@ class Converter():
             file = args['f'].read()
             ln_file = file.splitlines()
             for line in ln_file:
+                line = line.split(",")
+                line = [i.strip(' ') for i in line]
+                line = [i.strip('.') for i in line]
+                print(len(line))
                 return line
 
         if args['json'] is True:

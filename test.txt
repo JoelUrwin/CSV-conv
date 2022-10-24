@@ -1,9 +1,9 @@
-Venture Travel, Venture House, Consett, DH8 8SV, e-mail: info@venturetravel.co.uk, phone 01207 222 145.
-OK Travel, Bondgate, Durham, DH2 2BC, e-mail: passengerservices@ok.com, phone 0191 301 3012.
-Lockeys, The Garage, Durham, DH1 1AB, e-mail: contact@lockeysbuses.co.uk, phone 0191 340 1934.
-Bond Brothers, Coronation Terrace, Durham, DH2 3AG, e-mail: jeff.bond@bondbuses.com, phone 0191 333 1234.
-Diamond Buses, Diamond Buildings, Newcastle, NE2 5JH, e-mail: info@diamondbuses.co.uk, phone 0191 267 8937.
-Blue Belle, Lane End Garage, Durham, DH3 8BD, e-mail bill@bluebelletravel.co.uk, phone 0191 366 9147.
-Stephensons, North Road Depot, Durham, DH1 2CD, e-mail bus@stephensonsofdurham.co.uk, phone 0191 311 4384.
-Northumbria Motor Services, Jesmond Garage, Newcastle, NE2 2EN, e-mail enquiries@nms.co.uk, phone 0191 208 4929.
-Moor-Dale Coaches, Dudley Road, Newcastle, NE23 2MD, e-mail moor-dale@gmail.com, phone 0191 255 3272.
+Venture Travel, Venture House, Consett, DH8 8SV, info@venturetravel.co.uk, 01207 222 145.
+OK Travel, Bondgate, Durham, DH2 2BC, passengerservices@ok.com, 0191 301 3012.
+Lockeys, The Garage, Durham, DH1 1AB, contact@lockeysbuses.co.uk, 0191 340 1934
+Bond Brothers, Coronation Terrace, Durham, DH2 3AG, jeff.bond@bondbuses.com, 0191 333 1234
+Diamond Buses, Diamond Buildings, Newcastle, NE2 5JH, info@diamondbuses.co.uk, 0191 267 8937
+Blue Belle, Lane End Garage, Durham, DH3 8BD, bill@bluebelletravel.co.uk, 0191 366 9147
+Stephensons, North Road Depot, Durham, DH1 2CD, bus@stephensonsofdurham.co.uk, 0191 311 4384
+Northumbria Motor Services, Jesmond Garage, Newcastle, NE2 2EN, enquiries@nms.co.uk, 0191 208 4929
+Moor-Dale Coaches, Dudley Road, Newcastle, NE23 2MD, e-mail moor-dale@gmail.com, 0191 255 3272
