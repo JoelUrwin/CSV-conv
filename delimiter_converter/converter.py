@@ -8,6 +8,7 @@ class Converter():
         self.dict = dict()
         self.column_names = list()
         self.list = list()
+        self.col_list = list()
         self.sqldatatypes = dict()
         self.rowdepth = 0
         self.file = args['f'].read()
@@ -43,7 +44,8 @@ class Converter():
                 self.column_names = [i.strip(".") for i in self.column_names]
                 self.list.remove(self.column_names)
 
-                self.dict = dict(zip(self.column_names, self.list))
+                for line in self.list:
+                    self.col_list.append(dict(zip(self.column_names, line)))
 
                 return
             for x in (range(self.rowdepth)):
@@ -61,16 +63,19 @@ class Converter():
             output_filename = str(input("Input a filename for the converted file : "))
             if output_filename is "": output_filename = "default"
             with open(f'{output_filename}.json', 'w') as f:
-                json.dump(self.dict, f)
+                f.write(json.dumps(self.col_list))
+
         if args['yml'] is True:
             convert()
             column_create()
             print("Converting this table to YAML.")
-            print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
+            #print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
             output_filename = str(input("Input a filename for the converted file : "))
             if output_filename is "": output_filename = "default"
             with open(f'{output_filename}.yml', 'w') as f:
-                yaml.dump(self.dict, f)
+                for x in self.col_list:
+                    f.write(yaml.dump(self.col_list))
+
         if args['sql'] is True:
             convert()
             column_create()
@@ -101,14 +106,6 @@ class Converter():
             column_create()
             print("Converting this table to CSV.")
             print(tabulate(self.list, headers=self.column_names, tablefmt="fancy_grid"))
-            output_filename = str(input("Input a filename for the converted file : "))
-            if output_filename is "": output_filename = "default"
-            with open(f'{output_filename}.csv', 'w') as f:
-                writer = csv.DictWriter(f, fieldnames=self.column_names)
-                writer.writeheader()
-                print(self.dict)
-                for x in range(len(self.dict)):
-                    writer.writerows(self.dict)
 
         if args['enum'] is True:
             convert()
