@@ -30,7 +30,7 @@ class Converter():
         def sql_wizard():
             for x in (range(self.rowdepth)):
                 try:
-                    i = str(input(f"Input Column Datatype (Data : {self.list[0][x]}) ({len(self.list[0][x])}): "))
+                    i = str(input(f"Input Column Datatype (COL: {self.column_names[x]})(Data : {self.list[0][x]}) ({len(self.list[0][x])}): "))
                     self.sqldatatypes[self.column_names[x]] = i
                 except ValueError:
                     print("Value is not a string!")
