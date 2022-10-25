@@ -1,6 +1,6 @@
 
 [1]: https://www.w3schools.com/sql/sql_datatypes.asp "W3Schools SQL Datatypes"
-# JoelUrwin's Delimiter Converter
+# JoelUrwin's CSV-conv
 
 
 This package is built as a part of a personal project licensed under the GNU GENERAL PUBLIC LICENSE.
