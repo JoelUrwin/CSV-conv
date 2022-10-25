@@ -101,9 +101,4 @@ class Converter():
                 for x in self.list:
                     f.write(f"INSERT INTO {table_name}\nVALUES ({str(x).strip('[]')});\n")
 
-        if args['enum'] is True:
-            convert()
-            column_create()
-            print("Converting this table to a Java ENUM.")
-            print(tabulate(self.list, headers=self.column_names))
 
